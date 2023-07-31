@@ -46,7 +46,7 @@ class MuFidelity(ExplanationMetric):
     subset_percent
         Percent of the image that will be set to baseline.
     baseline_mode
-        Value of the baseline state, will be called with the a single input if it is a function.
+        Value of the baseline state, will be called with a single input if it is a function.
     nb_samples
         Number of different subsets to try on each input to measure the correlation.
     operator
