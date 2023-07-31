@@ -14,7 +14,7 @@ from ..types import Union, Callable, Optional, Dict
 
 class MuFidelity(ExplanationMetric):
     """
-    Used to compute the fidelity correlation metric. This metric ensure there is a correlation
+    Used to compute the fidelity correlation metric. This metric ensures there is a correlation
     between a random subset of pixels and their attribution score. For each random subset
     created, we set the pixels of the subset at a baseline state and obtain the prediction score.
     This metric measures the correlation between the drop in the score and the importance of the
